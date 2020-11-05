@@ -196,6 +196,7 @@ input#user_username.f-form-control,
 input#user_last_name.f-form-control,
 textarea#user_bio.f-form-control,
 div.f-radius.f-light.f-padding-large.row.no-margin.middle-xs.f-small-text.text-left,
+div.f-tag.left-space.f-secondary-text
 {
     background: #222;
     border: 1px solid #5bcc85;
@@ -266,4 +267,7 @@ input#aa-search-input.no-margin.no-border.aa-input{
 }
 div#option-914230.aa-suggestion.aa-cursor, span.title-search{
     color:#222 ;
+}div.f-light.f-padding-large{
+ background:  #333;
+ border-radius: 4px;
 }
