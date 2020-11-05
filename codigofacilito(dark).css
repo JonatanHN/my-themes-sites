@@ -252,3 +252,18 @@ section.f-top-medium{
 p.h5{
     color: #fff !important;
 }
+
+p.h5.no-margin.bold.inline-block{
+    color: #fff !important;
+}
+
+div.f-card.f-padding.white{
+    margin: 10px 0px;
+}
+
+input#aa-search-input.no-margin.no-border.aa-input{
+    color: #222;
+}
+div#option-914230.aa-suggestion.aa-cursor, span.title-search{
+    color:#222 ;
+}
