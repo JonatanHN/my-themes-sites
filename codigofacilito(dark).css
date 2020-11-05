@@ -48,12 +48,12 @@ div.center-block.f-card.f-padding.f-top-intersection.white {
 p.h5.no-margin.bold.inline-block {
     color: #fff;
 }
-a.f-main-btn.f-text-16.text-center.uppercase.inline-block,a.f-main-btn.f-top-intersection.row.full-width.white-btn,a.f-main-btn.inverse-btn.inline-block.text-center.full-width-xs,a.f-main-btn.row.full-width.facebook-btn,a.f-main-btn.text-center.h4.rb-normal.inline-block,a.f-secondary-btn.dark-btn.f-text-16.inline-block,a.f-secondary-btn.f-grey-text.f-right-space,a.f-secondary-btn.f-top,button#filter-btn.f-main-btn.f-text-16.block.full-width,button.f-main-btn.block.full-width,span.f-main-btn.inverse-btn.inline-block.text-center.full-width-xs {
+a.f-main-btn.f-text-16.text-center.uppercase.inline-block,a.f-main-btn.f-top-intersection.row.full-width.white-btn,a.f-main-btn.inverse-btn.inline-block.text-center.full-width-xs,a.f-main-btn.row.full-width.facebook-btn,a.f-main-btn.text-center.h4.rb-normal.inline-block,a.f-secondary-btn.dark-btn.f-text-16.inline-block,a.f-secondary-btn.f-grey-text.f-right-space,a.f-secondary-btn.f-top,button#filter-btn.f-main-btn.f-text-16.block.full-width,button.f-main-btn.block.full-width,span.f-main-btn.inverse-btn.inline-block.text-center.full-width-xs, a.f-secondary-btn.inline-block {
     background: #5bcc85;
     border: none;
     color: #222 !important;
 }
-a.f-main-btn.f-text-16.text-center.uppercase.inline-block:hover,a.f-main-btn.f-top-intersection.row.full-width.white-btn:hover,a.f-main-btn.inverse-btn.inline-block.text-center.full-width-xs:hover,a.f-main-btn.row.full-width.facebook-btn:hover,a.f-main-btn.text-center.h4.rb-normal.inline-block:hover,a.f-secondary-btn.dark-btn.f-text-16.inline-block:hover,a.f-secondary-btn.f-grey-text.f-right-space:hover,a.f-secondary-btn.f-top:hover,button#filter-btn.f-main-btn.f-text-16.block.full-width:hover,button.f-main-btn.block.full-width:hover,span.f-main-btn.inverse-btn.inline-block.text-center.full-width-xs:hover {
+a.f-main-btn.f-text-16.text-center.uppercase.inline-block:hover,a.f-main-btn.f-top-intersection.row.full-width.white-btn:hover,a.f-main-btn.inverse-btn.inline-block.text-center.full-width-xs:hover,a.f-main-btn.row.full-width.facebook-btn:hover,a.f-main-btn.text-center.h4.rb-normal.inline-block:hover,a.f-secondary-btn.dark-btn.f-text-16.inline-block:hover,a.f-secondary-btn.f-grey-text.f-right-space:hover,a.f-secondary-btn.f-top:hover,button#filter-btn.f-main-btn.f-text-16.block.full-width:hover,button.f-main-btn.block.full-width:hover,span.f-main-btn.inverse-btn.inline-block.text-center.full-width-xs:hover, a.f-secondary-btn.inline-block:hover {
     background: #222;
     color: #5bcc85 !important;
     border: 1px solid #fff;
@@ -168,7 +168,7 @@ div.f-darker.f-padding-x.f-padding-100-y {
 p.no-margin-top.no-margin-bottom.h4.rb-normal.container-70 {
     color: #fff;
 }
-a.f-label,h1.h1.no-margin.normal-line-height.f-text-36,p.f-alt-text,p.f-label,p.f-label.no-margin {
+a.f-label,h1.h1.no-margin.normal-line-height.f-text-36,p.f-alt-text,p.f-label,p.f-label.no-margin, span {
     color: #fff;
 }
 div.f-tag.warning.inline-block.h7 {
@@ -183,4 +183,40 @@ div.right-space.col-xs.no-padding {
 }
 div.f-label {
     font-weight: bold;
+}
+
+li.active.icon-row{
+    background: #222 !important;
+    
+}
+
+p.no-margin{
+    color: #5bcc85 !important;
+}
+li.icon-row{
+    background: #333;
+}
+
+div.circle-icon{
+    background: #5bcc85;
+    color: #222;
+}
+
+input#user_twitter_username.f-form-control,
+input#user_linkedin_url.f-form-control,
+input#user_github_username.f-form-control,
+input#user_website_url.f-form-control,
+input#user_birth_date.f-form-control,
+input#user_first_name.f-form-control,
+input#user_username.f-form-control,
+input#user_last_name.f-form-control,
+textarea#user_bio.f-form-control{
+    background: #222;
+    border: 1px solid #5bcc85;
+    color: #5bcc85;
+    border-radius: 4px;
+}
+
+article.f-card{
+    border: 1px solid #5bcc85 !important;
 }
