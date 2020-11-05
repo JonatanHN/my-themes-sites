@@ -24,7 +24,7 @@ p.bold.h1.no-margin-top.no-margin-bottom.inline-block.f-left-space-char, span.f-
     p.no-margin-top.no-margin-bottom.h4.rb-normal.container-70,
     a.f-label,h1.h1.no-margin.normal-line-height.f-text-36,p.f-alt-text,p.f-label,p.f-label.no-margin, span,
     th.f-padding,
-    p.no-margin-top
+    p.no-margin-top, h2.h1.normal-line-height.text-center
 {
     color: #fff;
 }
@@ -42,7 +42,7 @@ a.middle-xs.left-space.hover.f-normal-text.dropdown-button-right.dropdown-with-r
 main {
     background: #222;
 }
-div.center-block.f-card.f-padding.f-top-intersection.white, div.f-top.f-tag.f-padding-large {
+div.center-block.f-card.f-padding.f-top-intersection.white, div.f-top.f-tag.f-padding-large, div.f-card.f-padding.white{
     background: #333 !important;
 }
 
@@ -196,7 +196,8 @@ input#user_username.f-form-control,
 input#user_last_name.f-form-control,
 textarea#user_bio.f-form-control,
 div.f-radius.f-light.f-padding-large.row.no-margin.middle-xs.f-small-text.text-left,
-div.f-tag.left-space.f-secondary-text
+div.f-tag.left-space.f-secondary-text,
+button.like-link.inline-block.f-tag.right-space.border-currentcolor.modal-trigger
 {
     background: #222;
     border: 1px solid #5bcc85;
@@ -215,20 +216,8 @@ div.inline-block.f-tag.right-space.border-currentcolor{
     border: 1px solid #5bcc85;
 }
 
-h2.h1.normal-line-height.text-center{
-    color: #fff;
-}
-
-div.f-light.f-top-big{
-    background: #333;
-}
-
-div.f-light.f-padding.f-radius{
-    background: #333;
-}
-
-header.f-premium.f-padding.text-center.row.no-margin.center-xs.middle-xs{
-    background: #333;
+header.f-premium.f-padding.text-center.row.no-margin.center-xs.middle-xs, div.f-light.f-padding.f-radius, div.f-light.f-top-big{
+    background: #333 ;
 }
 
 div.f-card.f-shadow.no-padding.border.f-premium-text.overflow-hidden{
