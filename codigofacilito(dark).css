@@ -220,3 +220,18 @@ textarea#user_bio.f-form-control{
 article.f-card{
     border: 1px solid #5bcc85 !important;
 }
+
+div.inline-block.f-tag.right-space.border-currentcolor{
+    font-size: 10px;
+    background: none;
+    color: #5bcc85;
+    border: 1px solid #5bcc85;
+}
+
+h2.h1.normal-line-height.text-center{
+    color: #fff;
+}
+
+div.f-light.f-top-big{
+    background: #333;
+}
