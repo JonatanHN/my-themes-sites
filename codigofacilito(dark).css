@@ -48,12 +48,12 @@ div.center-block.f-card.f-padding.f-top-intersection.white {
 p.h5.no-margin.bold.inline-block {
     color: #fff;
 }
-a.f-main-btn.f-text-16.text-center.uppercase.inline-block,a.f-main-btn.f-top-intersection.row.full-width.white-btn,a.f-main-btn.inverse-btn.inline-block.text-center.full-width-xs,a.f-main-btn.row.full-width.facebook-btn,a.f-main-btn.text-center.h4.rb-normal.inline-block,a.f-secondary-btn.dark-btn.f-text-16.inline-block,a.f-secondary-btn.f-grey-text.f-right-space,a.f-secondary-btn.f-top,button#filter-btn.f-main-btn.f-text-16.block.full-width,button.f-main-btn.block.full-width,span.f-main-btn.inverse-btn.inline-block.text-center.full-width-xs, a.f-secondary-btn.inline-block {
+a.f-main-btn.f-text-16.text-center.uppercase.inline-block,a.f-main-btn.f-top-intersection.row.full-width.white-btn,a.f-main-btn.inverse-btn.inline-block.text-center.full-width-xs,a.f-main-btn.row.full-width.facebook-btn,a.f-main-btn.text-center.h4.rb-normal.inline-block,a.f-secondary-btn.dark-btn.f-text-16.inline-block,a.f-secondary-btn.f-grey-text.f-right-space,a.f-secondary-btn.f-top,button#filter-btn.f-main-btn.f-text-16.block.full-width,button.f-main-btn.block.full-width,span.f-main-btn.inverse-btn.inline-block.text-center.full-width-xs, a.f-secondary-btn.inline-block, input.f-main-btn {
     background: #5bcc85;
     border: none;
     color: #222 !important;
 }
-a.f-main-btn.f-text-16.text-center.uppercase.inline-block:hover,a.f-main-btn.f-top-intersection.row.full-width.white-btn:hover,a.f-main-btn.inverse-btn.inline-block.text-center.full-width-xs:hover,a.f-main-btn.row.full-width.facebook-btn:hover,a.f-main-btn.text-center.h4.rb-normal.inline-block:hover,a.f-secondary-btn.dark-btn.f-text-16.inline-block:hover,a.f-secondary-btn.f-grey-text.f-right-space:hover,a.f-secondary-btn.f-top:hover,button#filter-btn.f-main-btn.f-text-16.block.full-width:hover,button.f-main-btn.block.full-width:hover,span.f-main-btn.inverse-btn.inline-block.text-center.full-width-xs:hover, a.f-secondary-btn.inline-block:hover {
+a.f-main-btn.f-text-16.text-center.uppercase.inline-block:hover,a.f-main-btn.f-top-intersection.row.full-width.white-btn:hover,a.f-main-btn.inverse-btn.inline-block.text-center.full-width-xs:hover,a.f-main-btn.row.full-width.facebook-btn:hover,a.f-main-btn.text-center.h4.rb-normal.inline-block:hover,a.f-secondary-btn.dark-btn.f-text-16.inline-block:hover,a.f-secondary-btn.f-grey-text.f-right-space:hover,a.f-secondary-btn.f-top:hover,button#filter-btn.f-main-btn.f-text-16.block.full-width:hover,button.f-main-btn.block.full-width:hover,span.f-main-btn.inverse-btn.inline-block.text-center.full-width-xs:hover, a.f-secondary-btn.inline-block:hover, input.f-main-btn:hover {
     background: #222;
     color: #5bcc85 !important;
     border: 1px solid #fff;
@@ -210,7 +210,9 @@ input#user_birth_date.f-form-control,
 input#user_first_name.f-form-control,
 input#user_username.f-form-control,
 input#user_last_name.f-form-control,
-textarea#user_bio.f-form-control{
+textarea#user_bio.f-form-control,
+div.f-radius.f-light.f-padding-large.row.no-margin.middle-xs.f-small-text.text-left,
+{
     background: #222;
     border: 1px solid #5bcc85;
     color: #5bcc85;
@@ -234,4 +236,41 @@ h2.h1.normal-line-height.text-center{
 
 div.f-light.f-top-big{
     background: #333;
+}
+
+div.f-light.f-padding.f-radius{
+    background: #333;
+}
+
+header.f-premium.f-padding.text-center.row.no-margin.center-xs.middle-xs{
+    background: #333;
+}
+
+div.f-card.f-shadow.no-padding.border.f-premium-text.overflow-hidden{
+    border: 1px solid #333 !important;
+}
+
+p.f-label.no-margin-bottom.f-alert.inline-block{
+    background: #e2404b;
+}
+
+div.f-padding.f-radius.f-premium-alt-text{
+    background: #333 !important;
+}
+
+p.no-margin-top{
+    color: #fff;
+}
+
+section.f-top-medium{
+    background: #222 !important;
+}
+
+th.f-padding{
+    color: #fff;
+}
+
+
+p.h5, p.no-margin.f-label{
+    color: #222 !important;
 }
