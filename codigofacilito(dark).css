@@ -29,7 +29,7 @@ p.bold.h1.no-margin-top.no-margin-bottom.inline-block.f-left-space-char, span.f-
     color: #fff;
 }
 
-a.f-padding-large.f-text-16.pointer.f-radius-bottom.f-success.white-text {
+a.f-padding-large.f-text-16.pointer.f-radius-bottom.f-success.white-text, p.no-margin.h2.col-xs.no-padding {
     color: #222 !important;
 }
 a.middle-xs.left-space.hover.f-normal-text.dropdown-button-right.dropdown-with-rotatable-chevron.f-radius-medium.f-padding-small.f-tag.row {
@@ -42,7 +42,7 @@ a.middle-xs.left-space.hover.f-normal-text.dropdown-button-right.dropdown-with-r
 main {
     background: #222;
 }
-div.center-block.f-card.f-padding.f-top-intersection.white {
+div.center-block.f-card.f-padding.f-top-intersection.white, div.f-top.f-tag.f-padding-large {
     background: #333 !important;
 }
 
@@ -70,7 +70,7 @@ section {
 div.full-width.f-dark.f-radius-medium {
     background: #222;
 }
-footer.footer.f-darker.f-padding.f-top-medium.relative {
+footer.footer.f-darker.f-padding.f-top-medium.relative , div.f-light.f-padding-50{
     background: #333;
 }
 div.relative.f-dark.f-padding-y.f-radius.f-padding-x-intersection.h6.f-top-intersection.hidden-xs {
